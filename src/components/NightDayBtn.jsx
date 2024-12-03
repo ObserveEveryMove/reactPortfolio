@@ -5,7 +5,7 @@ const NightDayBtn = (props) => {
     <>
       <button
         // className="nightDayBtn secondaryTxt"
-        className={props.nightMode ? "nightDayBtn secondaryTxt" : "nightDayBtn primaryTxt"}
+        className="hover:text-violet-300 hover:scale-95"
         onClick={props.handleNightDay}
       >
         {props.nightMode ? <SunIcon/> : <MoonIcon/>}

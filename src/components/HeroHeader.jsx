@@ -1,11 +1,16 @@
 const HeroHeader = (props) => {
   return (
     <>
-      <div className="w-4/5 dark:secondaryNight secondary limeBorder rounded-lg -rotate-6 flex flex-col items-center justify-center p-2">
-        <h1>Patrick Keller</h1>
-        <div className="flex flex-row items-center justify-center p-1">
-          <h2 className="secondaryTxt">ObserveEveryMove</h2>
-          <h3 className="animate__animated animate__bounce">{"<OeM/>"}</h3>
+      <div className="md:w-2/3 lg:w-4/5 dark:secondaryNight secondary limeBorder rounded-lg -rotate-6 md:-rotate-3 flex flex-col items-center justify-center md:p-3">
+
+      <div className="md:w-full flex justify-start">
+        <h1 className="text-3xl md:text-5xl">{props.header}</h1>
+      </div>
+
+        <div className="flex flex-row items-center justify-end md:m-0 md:w-full">
+
+          <h2 className="secondaryTxt dark:text-white text-2xl md:text-3xl font-mono">ObserveEveryMove</h2>
+          <h3 className="animate-bounce text-xl md:text-2xl text-slate-900 font-mono">{"<OeM/>"}</h3>
         </div>
       </div>
     </>

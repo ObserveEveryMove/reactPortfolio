@@ -13,6 +13,7 @@
   box-sizing: border-box;
 }
 
+
 @layer components {
   .primary {
     background-color: theme("colors.primaryBg");
