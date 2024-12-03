@@ -9,10 +9,10 @@ const Contact = (props) => {
 
     emailjs
       .sendForm(
-        "service_ui9snlo",
-        "template_zmun0b5",
+        "service_ui9snlo", //serviceID
+        "template_zmun0b5", //templateID
         form.current,
-        "A6rg_IbC2omMDPVAA"
+        "A6rg_IbC2omMDPVAA"//Public Key
       )
       .then(
         (result) => {

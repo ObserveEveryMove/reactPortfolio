@@ -1,10 +1,11 @@
 import HeroHeader from "../components/HeroHeader";
+import Blurb from "../components/Blurb"
 
 const About = () => {
   return (
-    <div className="flex flex-col justify-between mt-12 items-center w-screen ">
-      <HeroHeader />
-      <h1>About</h1>
+    <div className="flex flex-col mt-10 justify-between items-center w-screen ">
+      <HeroHeader header="Patrick Keller" />
+      <Blurb/>
     </div>
   );
 };
