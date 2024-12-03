@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  @apply transition-colors duration-100;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@layer components {
+  .primary {
+    background-color: theme("colors.primaryBg");
+    color: theme("colors.secondaryTxt");
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  }
+  .secondary {
+    background-color: theme("colors.secondaryBg");
+    color: theme("colors.primaryTxt");
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  }
+  .secondaryTxt{
+    color: theme("colors.secondaryTxt");
+  }
+  .limeBorder {
+    border: solid 3px #47ebca;
+  }
+  .primaryNight {
+    background-color: black;
+    color: theme("colors.secondaryTxt");
+    box-shadow: 0 4px 8px 0 rgba(106, 199, 236, 0.2),
+      0 6px 20px 0 rgba(49, 250, 213, 0.19);
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  }
+  .secondaryNight {
+    background-color: theme("colors.secondaryTxt");
+    color: theme("colors.secondaryTxt");
+    background-color: darkslategray;
+    box-shadow: 0 4px 8px 0 rgba(106, 199, 236, 0.2),
+      0 6px 20px 0 rgba(49, 250, 213, 0.19);
+  }
+  .appWrapper {
+    height: 100vh;
+  }
+}
