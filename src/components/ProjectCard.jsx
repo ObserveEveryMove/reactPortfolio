@@ -12,7 +12,6 @@ const ProjectCard = (props) => {
           <div className="w-full flex items-center justify-center">
             <img className="w-1/2 h-auto" alt={props.alt} src={props.src} />
           </div>
-
           <p className="text-white">{props.description}</p>
         </a>
       </div>
