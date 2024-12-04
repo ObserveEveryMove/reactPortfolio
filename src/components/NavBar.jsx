@@ -9,7 +9,7 @@ const NavBar = (props) => {
       <nav className="md:h-20 w-auto p-1 md:w-screen h-screen secondary dark:secondaryNight limeBorder flex flex-col md:flex-row justify-around items-center rounded-md">
         <div className="flex flex-col md:flex-row justify-between h-24 items-center">
           <a
-            className="hover:text-violet-300 hover:scale-95"
+            className="hover:text-violet-300"
             href="https://github.com/ObserveEveryMove"
             target="_blank"
             rel="noopener noreferrer"
