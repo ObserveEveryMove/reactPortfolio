@@ -24,7 +24,6 @@ const Projects = () => {
             description="This is a drum machine built in React. It features reusable components as well as dynamic styling and responsiveness."
           />
         </div>
-
         <div className="w-full h-1/2 flex flex-row">
           <ProjectCard
             href="https://observeeverymove.github.io/pomodoroDeploy/"
