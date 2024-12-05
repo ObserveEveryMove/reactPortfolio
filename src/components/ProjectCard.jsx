@@ -3,7 +3,7 @@ const ProjectCard = (props) => {
     <>
       <div className="h-full w-full flex flex-col items-center justify-around">
         <a
-          className="hover:text-violet-300 hover:border-2 hover:border-violet-300 hover:rounded-md h-full w-full flex flex-col items-center justify-between text-center"
+          className="hover:text-violet-300 border-2 hover:border-blue-700 h-full w-full flex flex-col items-center justify-between text-center"
           href={props.href}
           target="_blank"
           rel="noopener noreferrer"

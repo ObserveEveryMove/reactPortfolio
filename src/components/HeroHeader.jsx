@@ -7,8 +7,12 @@ const HeroHeader = (props) => {
         </div>
 
         <div className="flex flex-row items-center justify-end lg:justify-between md:m-0 md:w-full">
-          <a className="hidden lg:block lg:text-2xl font-mono secondaryTxt" href="mailto:observeeverymove333@gmail.com">ObserveEveryMove333@gmail.com</a>
-          {/* <a href="mailto:recipient@example.com">Send email</a> */}
+          <a
+            className="hidden lg:block lg:text-2xl font-mono secondaryTxt"
+            href="mailto:observeeverymove333@gmail.com"
+          >
+            ObserveEveryMove333@gmail.com
+          </a>
           <div className="flex flex-row">
             <h2 className="secondaryTxt dark:text-white text-2xl md:text-3xl font-mono">
               ObserveEveryMove

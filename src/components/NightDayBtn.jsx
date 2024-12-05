@@ -4,7 +4,6 @@ const NightDayBtn = (props) => {
   return (
     <>
       <button
-        // className="nightDayBtn secondaryTxt"
         className="hover:text-violet-300 hover:scale-95"
         onClick={props.handleNightDay}
       >
