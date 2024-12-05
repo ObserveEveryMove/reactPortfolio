@@ -1,7 +1,7 @@
 import HeroHeader from "../components/HeroHeader";
 import SkillsIconContainer from "../components/SkillsIconContainer";
 
-const Skills = (props) => {
+const Skills = () => {
   return (
     <>
       <div className="flex flex-col mt-10 justify-between items-center w-screen md:h-screen">

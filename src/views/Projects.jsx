@@ -12,14 +12,12 @@ const Projects = () => {
           <ProjectCard
             href="https://observeeverymove.github.io/regexChecker/"
             src={regexCheckerImg}
-            alt="Regex Checker"
             title="Regex Checker"
             description="A simple regex testing tool written in vanilla JavaScript, Html, and CSS. Currently only desktop version available."
           />
           <ProjectCard
             href="https://observeeverymove.github.io/drumDeploy/"
             src={drumMachineImg}
-            alt="Drum Machine"
             title="Drum Machine"
             description="This is a drum machine built in React. It features reusable components as well as dynamic styling and responsiveness."
           />
@@ -28,15 +26,13 @@ const Projects = () => {
           <ProjectCard
             href="https://observeeverymove.github.io/pomodoroDeploy/"
             src={pomodoroImg}
-            alt="Pomodoro Clock"
             title="Pomodoro Clock"
             description="This is a pomodoro clock timer made with React and Redux. It features dynamic styling and is responsive. This project has a dark mode as well as a random theme button."
           />
           <ProjectCard
             href="https://observeeverymove.github.io/quoteDeploy/"
             src={quoteMachinePic}
-            alt="Quote Machine"
-            title="Quote Machine"
+            title="Quote Generator"
             description="An app that generates random quotes built with React."
           />
         </div>
