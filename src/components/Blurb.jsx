@@ -4,7 +4,7 @@ const Blurb = () => {
       <div className="h-auto mb-20 md:mb-14 md:mt-14 flex justify-center">
         <div className="secondary limeBorder rounded-lg dark:secondaryNight w-60 md:w-2/3 p-3 rotate-6 md:rotate-3 flex items-center justify-center">
 
-          <div className="p-4 xl:p-5 -rotate-6 md:-rotate-3">
+          <div className="animate-jump-in animate-once animate-duration-[3500ms] p-4 xl:p-5 -rotate-6 md:-rotate-3">
 
             <p className="text-sm md:text-xl xl:text-3xl text-white font-semibold indent-3">
               I'm a passionate and dedicated junior web developer skilled in

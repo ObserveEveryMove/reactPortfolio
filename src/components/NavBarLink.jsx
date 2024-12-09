@@ -5,7 +5,8 @@ const NavBarLink = ({route, text}) => {
     <>
       <NavLink
         className="md:text-2xl hover:text-violet-300"
-        activeClassName="active"
+        // activeClassName="active"
+        activeclassname="active"
         to={route}
       >
         {text}
