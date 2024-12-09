@@ -1,7 +1,5 @@
 import { Routes, Route, BrowserRouter as Router } from "react-router-dom";
 import { useState, useEffect } from "react";
-import 'animate.css'
-
 import Layout from "./views/Layout";
 import About from "./views/About";
 import Contact from "./views/Contact";
@@ -9,17 +7,18 @@ import Projects from "./views/Projects";
 import Skills from "./views/Skills";
 
 const App = () => {
-  const [nightMode, setNightMode] = useState(localStorage.getItem("theme") === "true" ? true : false);
+  const [nightMode, setNightMode] = useState(
+    localStorage.getItem("theme") === "false" ? false : true
+  );
 
   useEffect(() => {
     const mode = localStorage.getItem("theme");
-    if (mode === "true") {
+    if (mode === "false") {
+      setNightMode(false);
+    } else {
       setNightMode(true);
-    }else {
-      setNightMode(false)
     }
-    console.log(mode)
-  },[]);
+  }, []);
 
   useEffect(() => {
     localStorage.setItem("theme", nightMode);
@@ -28,7 +27,6 @@ const App = () => {
   const handleNightDay = () => {
     setNightMode(!nightMode);
   };
-
 
   return (
     <div className={nightMode ? "dark" : null}>
@@ -40,19 +38,13 @@ const App = () => {
               <Layout nightMode={nightMode} handleNightDay={handleNightDay} />
             }
           >
-            <Route index element={<About nightMode={nightMode} />} />
+            <Route index element={<About />} />
 
-            <Route
-              path="/contact"
-              element={<Contact nightMode={nightMode} />}
-            />
+            <Route path="/contact" element={<Contact />} />
 
-            <Route
-              path="/projects"
-              element={<Projects nightMode={nightMode} />}
-            />
+            <Route path="/projects" element={<Projects />} />
 
-            <Route path="/skills" element={<Skills nightMode={nightMode} />} />
+            <Route path="/skills" element={<Skills />} />
           </Route>
         </Routes>
       </Router>
