@@ -65,7 +65,7 @@ const ContactForm = () => {
           required
         />
         <textarea
-          className="w-3/4 h-1/2 limeBorder border-4 m-2 rounded-md p-1 text-black"
+          className="w-3/4 h-1/2 limeBorder border-4 m-2 rounded-md p-1 resize-none text-black"
           name="message"
           placeholder="Your Message"
           required
