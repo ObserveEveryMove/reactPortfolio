@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/reactPortfolio/static/css/main.c3f82f8f.css",
+    "main.js": "/reactPortfolio/static/js/main.f5fd048d.js",
+    "static/media/reactIcon2.png": "/reactPortfolio/static/media/reactIcon2.65ca18b4e9841f85a691.png",
+    "static/media/drumMachine.png": "/reactPortfolio/static/media/drumMachine.7c0db32642a60147b1b3.png",
+    "static/media/pomodoro.png": "/reactPortfolio/static/media/pomodoro.809d7b00690e58929768.png",
+    "static/media/sass.png": "/reactPortfolio/static/media/sass.58e61bc991e55a95072b.png",
+    "static/media/regexChecker.png": "/reactPortfolio/static/media/regexChecker.312a1689ce9ded469167.png",
+    "static/media/bootStrap.png": "/reactPortfolio/static/media/bootStrap.cd8247d9fc73c8160451.png",
+    "static/media/html5.png": "/reactPortfolio/static/media/html5.2cd5d05c9660ec55992e.png",
+    "static/media/quoteMachine.png": "/reactPortfolio/static/media/quoteMachine.d2fcb83a2b121c9d467f.png",
+    "static/media/redux1.png": "/reactPortfolio/static/media/redux1.1edba70acbe0a2484e24.png",
+    "static/media/mongoDb.png": "/reactPortfolio/static/media/mongoDb.c964002ecef4971216d0.png",
+    "static/media/js1.png": "/reactPortfolio/static/media/js1.36bb4d118385f9b55177.png",
+    "index.html": "/reactPortfolio/index.html",
+    "main.c3f82f8f.css.map": "/reactPortfolio/static/css/main.c3f82f8f.css.map",
+    "main.f5fd048d.js.map": "/reactPortfolio/static/js/main.f5fd048d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c3f82f8f.css",
+    "static/js/main.f5fd048d.js"
+  ]
+}
