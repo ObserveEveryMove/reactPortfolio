@@ -9,6 +9,3 @@ const SkillsIcon = ({src, alt}) => {
 };
 
 export default SkillsIcon;
-
-
-// animate-flip-up animate-once animate-duration-[1500ms] animate-delay-[2000ms]
